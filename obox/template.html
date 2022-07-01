@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+	<meta http-equiv="cache-control" content="max-age=0" />
+	<meta http-equiv="cache-control" content="no-cache" />
+	<meta http-equiv="expires" content="0" />
+	<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+	<meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>##PAGETITLE##</title>
+    <link rel="stylesheet" type="text/css" href="software/common.css" />
+    <script type="text/javascript" src="software/java/third/jws.js"></script>
+    <script type="text/javascript" src="software/java/third/sha256.js"></script>
+    <script type="text/javascript">
+      // --------------- Page Configuration ---------------
+      var page_configuration = new Array();
+      page_configuration["access_type"] = "##ACCESSTYPE##";     // Client Type (specify the client to use with "java", "remoteapp" or "html5" ; or let the user choose between several clients with "java+remoteapp+html5", "java+remoteapp", "java+html5" or "remoteapp+html5")
+      page_configuration["is_standard"] = ##ISSTANDARD##;   // Standard Logon Web Page (do not edit this parameter - support only)
+      page_configuration["show_domain"] = ##SHOWDOMAIN##;   // Show a Domain field (true if it must be displayed, false otherwise)
+      page_configuration["is_webcredentials"] = ##ISWEBCREDENTIALS##;   // Logon using WebCredentials (true if it is, false otherwise)
+      page_configuration["allow_empty_password"] = ##ALLOWEMPTYPASSWORD##;   // Allow empty Password field - only intended for WebCredentials (true if it allowed, false otherwise)
+      page_configuration["show_password"] = ##SHOWPASSWORD##;   // Show a Password field (true if it must be displayed, false otherwise)
+	  page_configuration["remember_credentials"] = ##REMEMBERCREDENTIALS##;	// Remember login and domain in a cookie (true if must be remembered, false otherwise)
+	  page_configuration["applications_portal"] = "##APPSPORTALPAGE##";	  // Display Application Portal after logon ("your_page_applications.html" to display the application portal, "" to start remote connection directly after logon)
+      // --------------- End of Page Configuration ---------------
+
+      // --------------- Access Configuration ---------------
+      var user = "##LOGIN##";                              // Login to use when connecting to the remote server (leave "" to use the login typed in this page)
+      var pass = "##PASSWORD##";                              // Password to use when connecting to the remote server (leave "" to use the password typed in this page)
+      var domain = "##DOMAIN##";                            // Domain to use when connecting to the remote server (leave "" to use the domain typed in this page)
+      var server = "##SERVER##";                            // Server to connect to (leave "" to use localhost and/or the server chosen in this page)
+      var port = "##PORT##";                              // Port to connect to (leave "" to use localhost and/or the port of the server chosen in this page)
+      var lang = "##LANG##";                    // Language to use
+      var serverhtml5 = "##SERVER##";              // Server to connect to, when using HTML5 client
+      var porthtml5 = "##PORT##";                     // Port to connect to, when using HTML5 client
+      var cmdline = "";                           // Optional text that will be put in the server's clipboard once connected
+      // --------------- End of Access Configuration ---------------
+
+      // --------------- Seamless Access Configuration ---------------
+      var alloutside = "dummyvaro=false; ";
+      alloutside += "switcher=##SEAMLESSSWITCHER##; ";               // Resolution to use (if your server supports RemoteApp, leave 7. Otherwise, use one of the following values: 0 = full window, 1 = full screen, 2 = 640x480, 3 = 800x600, 4 = 1024x768, 5 = 1280x1024, 6 = 1600x1200)
+      alloutside += "bpp_all=##SEAMLESSPIXELDEPTHWIN##; ";               // Pixel Depth to use for Windows clients (use one of the following values: 15 for 15 bits display, 16 for 16 bits, 24 for 24 bits, 32 for 32 bits)
+      alloutside += "bpp_all_mac='##SEAMLESSPIXELDEPTHMAC##'; ";          // Pixel Depth to use for MAC clients (use one of the following values: 1 for 15 bits display, 2 for 16 bits, 3 for 24 bits, 4 for 32 bits)
+	  alloutside += "cmdline='"+cmdline+"'; ";
+      //alloutside += "server=''; ";                  // Server (leave empty '' for auto recognition)
+      //alloutside += "username=''; ";                // Autologon User Login (leave empty '' if you don't want to use Autologon)
+      //alloutside += "rdppass=''; ";                 // Autologon User Password (leave empty '' if you don't want to use Autologon)
+      //alloutside += "mydomain=''; "                 // Domain (leave empty '' if you don't have an Active Directory domain)
+      // --------------- End of Seamless Access Configuration ---------------
+
+      // --------------- Java Access Configuration ---------------
+      var allinside = "dummyvari=false; ";
+      allinside += "switcher=##JAVASWITCHER##; ";                // Resolution to use (use one of the following values: 0 = full window, 1 = full screen, 2 = 640x480, 3 = 800x600, 4 = 1024x768, 5 = 1280x1024, 6 = 1600x1200)
+      allinside += "bpp_all=##JAVAPIXELDEPTH##; ";                // Pixel Depth to use (use one of the following values: 15 for 15 bits display, 16 for 16 bits, 24 for 24 bits)
+	  allinside += "cmdline='"+cmdline+"'; ";
+      //allinside += "server=''; ";                   // Server (leave empty '' for auto recognition)
+      //allinside += "username=''; ";                 // Autologon User Login (leave empty '' if you don't want to use Autologon)
+      //allinside += "rdppass=''; ";                  // Autologon User Password (leave empty '' if you don't want to use Autologon)
+      //allinside += "mydomain=''; "                  // Domain (leave empty '' if you don't have an Active Directory domain)
+      allinside += "sameasweb = '##JAVASAMEASWEB##'; ";         // Port to use for the RDP connection ('yes' if you want to use the same port as this page's web server address, 'no' otherwise
+      allinside += "insidecheck = ##JAVAINSIDECHECK##; ";        // Start the Java Client inside the browser (true to start it inside the browser, false to start it externally)
+      allinside += "soundsup = ##JAVASOUNDSUP##; ";           // Sound Support (true to activate it, false otherwise)
+      allinside += "mapsup = ##JAVAMAPSUP##; ";             // Local Disk Mapping (true to activate it, false otherwise)
+      allinside += "activex = ##JAVAACTIVEX##; ";           // ActiveX instead of Java in Internet Explorer browsers (true if you want to use ActiveX client instead of the Java client, false otherwise)
+      // --------------- End of Java Access Configuration ---------------
+    </script>
+    <script type="text/javascript" src="software/common.js"></script>
+  </head>
+  <body onKeyPress="CheckKey(event);" onload="setAll();" style="color: ##PAGECOLOR##; background-color: ##PAGEBACKGROUNDCOLOR##; font-family: ##PAGEFONT##;">
+    <div id="container">
+      <div id="header">
+        <div id="logo" style="background-color: ##LOGOBACKGROUNDCOLOR##;">
+          <img src="##LOGO##" />
+        </div>
+        <span style="font-size: ##BASELINESIZE##px;">
+            ##BASELINE##
+        </span>
+      </div>
+      <div id="content">
+        <form name="logonform">
+          <div id="form" style="background: url('software/java/img/theme_##THEME##_header.png') no-repeat;">
+            <div id="formcontent">
+              <br/>
+              <h1>##TITLE##</h1>
+              <table>
+                <tr>
+                  <td><label>##LABELUSERNAME##</label></td>
+                    <td><input type="##INPUTTYPEUSERNAME##" name="Login" id="Editbox1" onblur="onLoginTyped();" value="##LOGIN##"/></td>
+                    <td class="td-icon">
+                      <span id="span-login-ok"><img src="software/java/img/ok.png"/></span>
+                      <span id="span-login-ko"><img src="software/java/img/ko.png"/></span>
+                    </td>
+                </tr><tr id="tr-password">
+                  <td><label>##LABELPASSWORD##</label></td>
+                  <td><input type="password" name="Password" id="Editbox2" onfocus="onPasswordFocused();" value="##PASSWORD##"/></td>
+                  <td class="td-icon">
+                    <span id="span-password-ok"><img src="software/java/img/ok.png"/></span>
+                    <span id="span-password-ko"><img src="software/java/img/ko.png"/></span>
+                  </td>
+                </tr><tr id="tr-domain">
+                  <td><label>##LABELDOMAIN##</label></td>
+                  <td><input type="text" name="Domain" id="Editbox3" value="##DOMAIN##" /></td>
+                  <td class="td-icon"> </td>
+                </tr><tr style="height:26px;">
+				  <td> </td>
+                  <td><select id="select-server" name="server"></select></td>
+                  <td class="td-icon"> </td>
+                </tr><tr>
+                  <td colspan="2" align="right">
+                    <div style="height:8px;"> </div>
+                    <span id="span-credentials-ko">Invalid credentials</span>
+                    <input id="buttonLogOn" type="button" value="##LABELLOGON##" onclick="cplogon();" />
+                    <br/>
+                  </td>
+                  <td class="td-icon"> </td>
+                </tr>
+              </table>
+            </div>
+            <div id="formfooter" style="background: ##PAGEBACKGROUNDCOLOR## url('software/java/img/theme_##THEME##_footer.png') no-repeat;"> </div>
+          </div>
+          <div id="accesstypeuserpanel">
+            Preference:
+            <br/>
+            <label id="label_accesstypeuserchoice_html5" for="accesstypeuserchoice_html5"><input type="radio" value="html5" name="accesstypeuserchoice" id="accesstypeuserchoice_html5" checked="checked"> HTML5 client</label>
+            <label id="label_accesstypeuserchoice_java" for="accesstypeuserchoice_java"><input type="radio" value="java" name="accesstypeuserchoice" id="accesstypeuserchoice_java"> Java client</label>
+            <label id="label_accesstypeuserchoice_remoteapp" for="accesstypeuserchoice_remoteapp"><input type="radio" value="remoteapp" name="accesstypeuserchoice" id="accesstypeuserchoice_remoteapp"> Windows</label>
+          </div>
+        </form>
+		<div style="visibility:hidden;display:none;width:0px;height:0px;"><span id="tr-verifypassword"></span><span id="retype-password-label"></span><span id="retype-password-input"></span></div>
+      </div>
+      <div id="footer">
+        <img src="##FOOTERPICTURE##" />
+      </div>
+    </div>
+  </body>
+</html>

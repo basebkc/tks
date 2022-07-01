@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>File Transfer</title>
+<style type="text/css">
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #f5f5f5;
+
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	font-size: 13px;
+	color: #777777;
+}
+#title {
+	width: 100%;
+	height: 25px;
+	background-color: #dcdcdc;
+	padding: 0 0px;
+	margin-bottom: 15px;
+}
+#title p {
+	float: left;
+	line-height: 25px;
+	margin: 0;
+	padding: 0;
+	color: #959595;
+}
+#title p:first-child {
+	float: right;
+	font-weight: bold;
+}
+#title a { text-decoration: none; color: #959595; }
+#title a:hover { color: #ffffff; }
+
+.uploadButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:#ededed;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topleft:5px;
+	border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-topright:5px;
+	border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	border-bottom-left-radius:5px;
+	text-indent:0;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-size:13px;
+	font-weight:bold;
+	height:30px;
+	line-height:30px;
+	width:200px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ffffff;
+}
+.uploadButton:hover {
+	background-color:#dfdfdf;
+}
+
+#fileTransfer {
+	width: 100%;
+	height: 100%;
+	background-color: #f5f5f5;
+}
+#fileTransfer #content #filesonly {
+	text-align: left;
+	list-style-image:url('../software/html5/own/file.png');
+}
+#fileTransfer #content #foldersonly {
+	text-align: left;
+	list-style-image:url('../software/html5/own/folder.png');
+}
+#fileTransfer a, #fileTransfer #content a {
+	color: #000000;
+}
+#fileTransfer a:hover, #fileTransfer #content a:hover {
+	text-decoration: none;
+}
+
+.dropFi { 
+	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIGhlaWdodD0nNTAnIHdpZHRoPScxMjAnPjx0ZXh0IHg9JzE1JyB5PScxNScgZmlsbD0nZ3JleScgZm9udC1zaXplPScxMCc+RFJPUCBGSUxFUyBIRVJFITwvdGV4dD48L3N2Zz4=");
+	background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIGhlaWdodD0nNTAnIHdpZHRoPScxMjAnPjx0ZXh0IHg9JzE1JyB5PScxNScgZmlsbD0nZ3JleScgZm9udC1zaXplPScxMCc+RFJPUCBGSUxFUyBIRVJFITwvdGV4dD48L3N2Zz4=");
+
+	width: 100%;
+	height: 100%;
+	background-color: #f5f5f5;
+
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	font-size: 13px;
+	color: #777777;
+}
+
+#forform, #frm1, #file {
+  filter:alpha(opacity=0); 
+  opacity: 0;
+}
+</style>
+<script charset=utf-8" type="text/javascript">
+var newstyle = false;
+var sent = false;
+var jsb64array = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
+
+function jsencode64(input) {
+    var base64 = "";
+    var hex = "";
+    var chr1, chr2, chr3 = "";
+    var enc1, enc2, enc3, enc4 = "";
+    var i = 0;
+    do {
+        chr1 = input.charCodeAt(i++);
+        chr2 = input.charCodeAt(i++);
+        chr3 = input.charCodeAt(i++);
+        enc1 = chr1 >> 2;
+        enc2 = ((chr1 & 3) << 4) | (chr2 >> 4);
+        enc3 = ((chr2 & 15) << 2) | (chr3 >> 6);
+        enc4 = chr3 & 63;
+        if (isNaN(chr2)) {
+            enc3 = enc4 = 64;
+        } else if (isNaN(chr3)) {
+            enc4 = 64;
+        }
+        base64 = base64  +
+            jsb64array.charAt(enc1) +
+            jsb64array.charAt(enc2) +
+            jsb64array.charAt(enc3) +
+            jsb64array.charAt(enc4);
+        chr1 = chr2 = chr3 = "";
+        enc1 = enc2 = enc3 = enc4 = "";
+    } while (i < input.length);
+    return base64;
+}
+
+function firstload() { 
+  window.action = "uploadb?path=" + window.path_main + "&login=" + window.login;
+  var addOwnInner = "";
+  var allFiles = new Object();
+  var allFilesCounter = 1;
+
+  var fg = document.getElementById("fileTransfer");
+  var allAr = document.getElementsByTagName("body")[0];
+  window.fg = fg;
+  window.allAr = allAr;
+
+  function UploadMeNew(file) {
+		var xhr;
+                try {
+                  if(window.myxhr) { 
+                    xhr = window.myxhr;
+                    window.myxhr = false;
+                  } else { 
+                    xhr = new XMLHttpRequest();
+                  }
+                } catch(df) { return; }
+                var myfile = allFilesCounter + file.name;
+                allFiles[myfile] = file.name;
+                allFilesCounter++;
+                var progress = false;
+
+		var op = document.getElementById("progress");
+                if(!op) { 
+                  try { document.getElementById("divup").innerHTML = "<div id='progress' style='text-align:center;display:none;'></div>"; } catch(td) { }
+                  op = document.getElementById("progress");
+                }
+                if(op) { 
+                   op.style.display = ""; 
+                   try { document.getElementById("divup").style.display = ""; } catch(td) { }
+		   progress = op.appendChild(document.createElement("p"));
+                   progress.innerHTML = "Uploading " + file.name;
+                }
+
+                var upl = "Uploading ";
+                var pcB = -1;
+		xhr.upload.addEventListener("progress", function(e) {
+		   var pc = Math.round(e.loaded / e.total * 100);
+                   if(e.loaded == e.total && op && progress) { op.removeChild(progress); progress = false; return; }
+		   if(progress && pcB != pc) { pcB = pc; progress.innerHTML = upl + file.name + " " + pc + "%"; }
+		}, false);
+
+
+		xhr.onreadystatechange = function(e) {
+		   if(xhr.readyState == 4) {
+                            delete allFiles[myfile];
+                            
+                            var k = 0;
+                            for(var p in allFiles) { k++; }
+                            if(k == 0) { 
+                              window.sent = false;
+                              if(xhr.status == 200) { 
+                                window.sendF5();
+                                document.location.reload(true);
+                                return;
+                              }
+                              if(op) { op.style.display = "none"; }
+                              try { document.getElementById("divup").style.display = "none"; } catch(td) { }
+                              try { document.getElementById("fileHide").style.display = ""; } catch(td) { }
+                            } else if(xhr.status != 200) {
+                               if(progress) { progress.innerHTML = "Upload failed " + file.name; }
+                            }
+		   }
+		};
+
+		xhr.open("POST", window.action, true); 
+		try { xhr.setRequestHeader("X-File-Name", "base64" + window.jsencode64(encodeURIComponent(String(file.name)))); } catch(dx) { return; }
+		xhr.send(file);
+                window.sent = true;
+                try { document.getElementById("fileHide").style.display = "none"; } catch(td) { }
+  }
+
+  var DragHoverTimeout = false;
+
+  function DragHover(e) {
+    var mytype = e.type;
+    e.stopPropagation();
+    e.preventDefault();
+    if(DragHoverTimeout) { clearTimeout(DragHoverTimeout); }
+    DragHoverTimeout = setTimeout(function() {
+     if(fg) {
+      if(window.sent) { return; }
+      if(mytype == "dragover") {
+        if(!window.beforeFG || fg.innerHTML != addOwnInner) { window.beforeFG = fg.innerHTML; } 
+        fg.style.display = "none";
+        if(allAr) { allAr.className = "dropFi"; }
+      } else if(window.beforeFG) { 
+        fg.style.display = ""; if(allAr) { allAr.className = ""; } 
+      }
+     }
+    }, 10);
+  }
+
+  function ignoreDrag(e) { e.preventDefault(); }
+
+  function SelectHandler(e) {
+    e.stopPropagation();
+    e.preventDefault();
+    if(window.sent) { return; }
+    var files = e.target.files || e.dataTransfer.files;
+    if(fg && window.beforeFG) { 
+      fg.style.display = ""; if(allAr) { allAr.className = ""; } 
+    } 
+    try {
+      for(var i = 0, f; f = files[i]; i++) { UploadMeNew(f); }
+    } catch(fkl) { }
+  }
+  window.MySelectHandler = SelectHandler;
+
+  var forma = document.getElementById("forform"); 
+
+  if(window.File && window.FileList && window.FileReader) {
+     try {
+	window.myxhr = new XMLHttpRequest();
+        var filedrag = allAr;
+
+	if(filedrag && window.myxhr.upload) {
+          var fortxt = "<form id=\"frm1\" action=\"" + window.action + "\" method=\"post\" enctype=\"multipart/form-data\">";
+             fortxt += "&nbsp;<input id=\"file\" style=\"position:absolute;left:-9999px;\" onchange=\"window.MySelectHandler(event);\" type=\"file\" name=\"file[]\" multiple />";
+             fortxt += "</form>";
+
+	     window.addEventListener("dragleave", DragHover, false);
+	     window.addEventListener("drop", SelectHandler, false);
+	     window.addEventListener("dragenter", ignoreDrag, false);
+  	     window.addEventListener("dragover", DragHover, false);
+             if(forma) { 
+               forma.innerHTML = fortxt; 
+               forma.style.display = "";
+               window.newstyle = true;
+  
+               window.onblur = function() { if(window.fg) { window.fg.style.display = ""; if(window.allAr) { window.allAr.className = ""; } } }
+               window.blur = window.onblur;
+               window.onmouseout = window.onblur;
+             }
+	}
+    } catch(xn) { } 
+  }
+}
+
+function NewLoadme() {
+   var filed = document.getElementById("file");
+   try {
+     filed.focus();
+     filed.click();
+   } catch(d) { }
+}
+</script>
+<script type="text/javascript">
+  function getDialog() { 
+    var k = ""; try { if(window.opener) { k = window.opener.getDialog(); } else if(window.parent) { k = window.parent.getDialog(); } } catch(e) { } 
+    if(!k) { k = ""; } eval("window.getDialog = function() { return '" + k + "'; }"); return k; }
+
+  function getFakeExt() { 
+    var k = ""; try { if(window.opener) { k = window.opener.getFakeExt(); } else if(window.parent) { k = window.parent.getFakeExt(); } } catch(e) { } 
+    if(!k || !window.getDialog()) { k = ""; } eval("window.getFakeExt = function() { return '" + k + "'; }"); return k; }
+
+  function onloadFunc() { 
+    var content = document.getElementById("content");
+    var W = window;
+    var openfold = "<ul id=\"foldersonly\">";
+    if(content && W.path_main) {
+       var innerhtml = "";
+       var folderarr = (W.folders.length > 0 ? W.folders.split(";").sort() : { });
+       var filearr = (W.files.length > 0 ? W.files.split(";").sort() : { });
+       if(W.showshared && W.path_shared.length < 1) {
+         if(innerhtml.length < 1) { innerhtml += openfold; }
+         innerhtml += "<li><a href=\"" + "list?path=" + W.path_main + (W.login.length > 0 ? "&login=" + W.login : "") + "&pathadd=/shared\">../shared</a></li>";
+       }
+       var trimlook = trimmed.indexOf("/");
+       if(trimlook > -1) { trimlook = trimmed.substring(trimlook + 1); }
+       if(trimlook.length > 0) {
+         var tops = W.path_main;
+         if(W.path_shared.length > 0) { tops = W.path_shared; }
+         var laind = tops.lastIndexOf("/");
+         if(laind > -1) {
+           laind = tops.substring(0, laind);
+           var pshare = W.path_shared;
+           if(W.path_shared.length > 0) { pshare = laind; laind = W.path_main; }
+           if(innerhtml.length < 1) { innerhtml += openfold; }
+           innerhtml += "<li><a href=\"" + "list?path=" + laind + (W.login.length > 0 ? "&login=" + W.login : "") + (!W.showshared ? "&no=no" : "") + (pshare.length > 0 ? "&pathadd=" + pshare : "") + "\">..</a></li>";
+         }
+       }
+       for(var i = 0; i < folderarr.length; i++) {
+         if(folderarr[i].length < 1) { continue; }
+         var laind = W.path_main + "/" + folderarr[i];
+         var pshare = W.path_shared;
+         if(W.path_shared.length > 0) { pshare = W.path_shared + "/" + folderarr[i]; laind = W.path_main; }
+         if(innerhtml.length < 1) { innerhtml += openfold; }
+         innerhtml += "<li><a href=\"" + "list?path=" + laind + (W.login.length > 0 ? "&login=" + W.login : "") + (!W.showshared ? "&no=no" : "") + (pshare.length > 0 ? "&pathadd=" + pshare : "") + "\">" + folderarr[i] + "</a></li>";
+       }
+       if(innerhtml.length > 0) { innerhtml += "</ul>"; }
+       if(W.path_shared.length > 0) { W.path_main = W.path_shared; W.login = ""; if(W.path_main.indexOf("/") == 0) { W.path_main = W.path_main.substring(1); } }
+       var fulllink = ".." + window.getDialog() + "/downloads/" + W.login + W.path_main + "/";
+       if(filearr.length > 0) { innerhtml += "<ul id=\"filesonly\">";  }
+       for(var i = 0; i < filearr.length; i++) {
+         if(filearr[i].length < 1) { continue; }
+         var file = fulllink + filearr[i] + window.getFakeExt();
+         innerhtml += "<li><a data-auto-download target=\"_blank\" href=\"" + file + "\">" + filearr[i] + "</a></li>";
+       }
+       if(filearr.length > 0) { innerhtml += "</ul>";  }
+       if(innerhtml.length > 0) { content.innerHTML = innerhtml; }
+       else { 
+          var hs = document.getElementById("hastransfer");
+          if(hs) { hs.style.display = ""; }
+       }
+    }
+    window.firstload();
+  }
+  function sendF5() { try { if(window.opener) { window.opener.sendF5(); } else if(window.parent) { window.parent.sendF5(); } } catch(e) { } }
+  function closefilesiframe() { try { if(window.opener) { self.close(); } else if(window.parent) { window.parent.closefilesiframe(); } } catch(e) { } }
+  function launchCenter(url, name, width, height, winstyle) {
+    var str = "height=" + height + ",innerHeight=" + height;
+    str += ",width=" + width + ",innerWidth=" + width;  if (window.screen) {
+    var ah = screen.availHeight - 30;    var aw = screen.availWidth - 10;
+    var xc = (aw - width) / 2;    var yc = (ah - height) / 2;
+    str += ",left=" + xc + ",screenX=" + xc;
+    str += ",top=" + yc + ",screenY=" + yc;  }
+    return window.open(url, name, str + "," + winstyle);
+  }
+  function PopWindow(strURL, width, height) {
+    launchCenter(strURL, "_blank", width, height, "scrollbars=no,toolbar=no,location=no,menubar=no,resizable=yes")
+  }
+  function uploadme() {
+    if(window.forupload) { 
+      if(window.newstyle) { window.NewLoadme(); return; }
+      PopWindow("uploadb?path=" + window.forupload, 300, 150); 
+    }
+  }
+</script>
+</head>
+<body width="100%" height="100%" onload="onloadFunc();">
+   <div id="fileHide">
+    <div id="fileTransfer">
+	<div id="title" onclick="closefilesiframe();">
+		<p><a href="#">X&nbsp;</a></p>
+		<p>&nbsp;File transfer</p>
+	</div>
+	<div style="text-align: center;">
+	 <a href="#" onclick="uploadme();" class="uploadButton">Choose a file to upload</a>
+	 <div id="hastransfer" style="display:none;"><p><br><br><br><br><br>No file has been transferred yet.</p></div>
+	 <div id="content"></div>
+	</div>
+    </div>
+  </div>
+  <div id="divup" style="text-align:center;display:none;"></div>
+  <div id="forform" style="text-align:left;display:none;"></div>
+</body>
+</html>

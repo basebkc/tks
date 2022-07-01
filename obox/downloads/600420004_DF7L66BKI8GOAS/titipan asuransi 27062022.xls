@@ -1,0 +1,2640 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<?fr-application created="FastReport®"?>
+<?fr-application homesite="http://www.fast-report.com"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+<Title></Title>
+<Author></Author>
+<Created>28/06/2022T11:13:04Z</Created>
+<Version>...</Version>
+</DocumentProperties>
+<ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+<ProtectStructure>False</ProtectStructure>
+<ProtectWindows>False</ProtectWindows>
+</ExcelWorkbook>
+<Styles>
+<Style ss:ID="s0">
+<Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s1">
+<Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s2">
+<Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s3">
+<Font ss:FontName="Arial" ss:Size="8" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s4">
+<Font ss:FontName="Arial" ss:Size="1" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s5">
+<Font ss:FontName="Times New Roman" ss:Size="12" ss:Color="#000000" ss:Bold="1"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s6">
+<Font ss:FontName="Times New Roman" ss:Size="14" ss:Color="#000000" ss:Bold="1"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s7">
+<Font ss:FontName="Times New Roman" ss:Size="9" ss:Color="#000000" ss:Italic="1"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s8">
+<Font ss:FontName="Arial" ss:Size="8" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s9">
+<Font ss:FontName="Arial" ss:Size="8" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s10">
+<Font ss:FontName="Arial" ss:Size="8" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s11">
+<Font ss:FontName="Arial" ss:Size="8" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s12">
+<Font ss:FontName="Arial" ss:Size="8" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s13">
+<Font ss:FontName="Arial" ss:Size="8" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s14">
+<Font ss:FontName="Arial" ss:Size="8" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s15">
+<Font ss:FontName="Arial" ss:Size="8" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s16">
+<Font ss:FontName="Arial" ss:Size="8" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s17">
+<Font ss:FontName="Arial" ss:Size="7" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s18">
+<Font ss:FontName="Arial Narrow" ss:Size="8" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s19">
+<Font ss:FontName="Arial" ss:Size="8" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s20">
+<Font ss:FontName="Arial" ss:Size="8" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s21">
+<Font ss:FontName="Arial Narrow" ss:Size="7" ss:Color="#000000" ss:Italic="1"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s22">
+<Font ss:FontName="Arial" ss:Size="8" ss:Color="#000000" ss:Underline="Single"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s23">
+<Font ss:FontName="Arial" ss:Size="8" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s24">
+<Font ss:FontName="Tahoma" ss:Size="7" ss:Color="#000000" ss:Underline="Single"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s25">
+<Font ss:FontName="tahoma" ss:Size="7" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s26">
+<Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s27">
+<Font ss:FontName="Arial" ss:Size="8" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s28">
+<Font ss:FontName="Arial" ss:Size="8" ss:Color="#000000" ss:Underline="Single"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s29">
+<Font ss:FontName="Arial" ss:Size="8" ss:Color="#000000" ss:Underline="Single"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+</Styles>
+<Worksheet ss:Name="Page 1">
+<Table ss:ExpandedColumnCount="30" ss:ExpandedRowCount="108" x:FullColumns="1" x:FullRows="1">
+<Column ss:AutoFitWidth="0" ss:Width="0.727272727272727"/>
+<Column ss:AutoFitWidth="0" ss:Width="2.02147636363636"/>
+<Column ss:AutoFitWidth="0" ss:Width="46.728702591267"/>
+<Column ss:AutoFitWidth="0" ss:Width="1.43163922691484"/>
+<Column ss:AutoFitWidth="0" ss:Width="15.0608872727273"/>
+<Column ss:AutoFitWidth="0" ss:Width="5.49749818181818"/>
+<Column ss:AutoFitWidth="0" ss:Width="7.27272727272727"/>
+<Column ss:AutoFitWidth="0" ss:Width="0.97352"/>
+<Column ss:AutoFitWidth="0" ss:Width="19.0296290909091"/>
+<Column ss:AutoFitWidth="0" ss:Width="33.1965237527273"/>
+<Column ss:AutoFitWidth="0" ss:Width="1.59202897454545"/>
+<Column ss:AutoFitWidth="0" ss:Width="1.1568"/>
+<Column ss:AutoFitWidth="0" ss:Width="13.7437454545455"/>
+<Column ss:AutoFitWidth="0" ss:Width="13.7437454545455"/>
+<Column ss:AutoFitWidth="0" ss:Width="24.7387418181818"/>
+<Column ss:AutoFitWidth="0" ss:Width="25.6549915127273"/>
+<Column ss:AutoFitWidth="0" ss:Width="15.98845576"/>
+<Column ss:AutoFitWidth="0" ss:Width="7.8339192"/>
+<Column ss:AutoFitWidth="0" ss:Width="37.0163644363636"/>
+<Column ss:AutoFitWidth="0" ss:Width="15.2097919563636"/>
+<Column ss:AutoFitWidth="0" ss:Width="65.9699284727273"/>
+<Column ss:AutoFitWidth="0" ss:Width="4.58149169454545"/>
+<Column ss:AutoFitWidth="0" ss:Width="61.3886977381818"/>
+<Column ss:AutoFitWidth="0" ss:Width="46.7287665018182"/>
+<Column ss:AutoFitWidth="0" ss:Width="19.2412436363636"/>
+<Column ss:AutoFitWidth="0" ss:Width="10.4564"/>
+<Column ss:AutoFitWidth="0" ss:Width="8.78484363636364"/>
+<Column ss:AutoFitWidth="0" ss:Width="2.81711272727273"/>
+<Column ss:AutoFitWidth="0" ss:Width="19.17288"/>
+<Row ss:Height="13.7437383563636">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:MergeDown="5" ss:StyleID="s0" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="14" ss:MergeDown="5" ss:StyleID="s0" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="15" ss:MergeAcross="9" ss:StyleID="s5" >
+<Data ss:Type="String">PERUMDA BPR KABUPATEN CIREBON</Data>
+</Cell>
+<Cell ss:Index="25" ss:MergeAcross="3" ss:MergeDown="5" ss:StyleID="s0" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="2.74875618909091">
+<Cell ss:Index="15" ss:MergeAcross="9" ss:StyleID="s0" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437383563636">
+<Cell ss:Index="15" ss:MergeAcross="9" ss:StyleID="s6" >
+<Data ss:Type="String">CABANG PLUMBON</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="2.74876328727273">
+<Cell ss:Index="15" ss:MergeAcross="9" ss:StyleID="s0" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="10.9949892654545">
+<Cell ss:Index="15" ss:MergeAcross="9" ss:StyleID="s7" >
+<Data ss:Type="String">Jl. Pangeran antasari no. &#53&#54 Plumbon, Kab. Cirebon</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="5.49749818181818">
+<Cell ss:Index="15" ss:MergeAcross="9" ss:StyleID="s0" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="0.727272727272727">
+<Cell ss:Index="1" ss:MergeAcross="26" ss:StyleID="s4" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="28" ss:MergeDown="48" ss:StyleID="s0" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="1.29420363636364">
+<Cell ss:Index="1" ss:MergeAcross="26" ss:StyleID="s0" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437454545455">
+<Cell ss:Index="1" ss:MergeAcross="26" ss:StyleID="s2" >
+<Data ss:Type="String">BUKU BESAR HARIAN</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="3.47602181818182">
+<Cell ss:Index="1" ss:MergeAcross="26" ss:StyleID="s0" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437454545455">
+<Cell ss:Index="1" ss:MergeAcross="26" ss:StyleID="s3" >
+<Data ss:Type="String">Mulai Tanggal :&#48&#49 Juni &#50&#48&#50&#50 s.d. &#50&#56 Juni &#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="2.74874909090909">
+<Cell ss:Index="1" ss:MergeAcross="26" ss:StyleID="s0" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="18.1073818181818">
+<Cell ss:Index="1" ss:MergeDown="1" ss:StyleID="s0" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="2" ss:MergeAcross="3" ss:StyleID="s12" >
+<Data ss:Type="String">Kode Perkiraan : </Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="11" ss:StyleID="s13" >
+<Data ss:Type="String">&#50&#48&#49&#48&#53&#48&#49</Data>
+</Cell>
+<Cell ss:Index="18" ss:MergeAcross="1" ss:MergeDown="1" ss:StyleID="s0" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="20" ss:MergeAcross="6" ss:StyleID="s14" >
+<Data ss:Type="String">Nama Perkiraan : &#49. Titipan Premi Asuransi</Data>
+</Cell>
+<Cell ss:Index="27" ss:MergeDown="1" ss:StyleID="s0" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="1.13386181818182">
+<Cell ss:Index="2" ss:MergeAcross="15" ss:StyleID="s0" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="20" ss:MergeAcross="6" ss:StyleID="s0" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="16.4924732426628">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s8" >
+<Data ss:Type="String">Tgl trans</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s0" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="5" ss:MergeAcross="2" ss:StyleID="s8" >
+<Data ss:Type="String">Kode</Data>
+</Cell>
+<Cell ss:Index="8" ss:MergeAcross="2" ss:StyleID="s12" >
+<Data ss:Type="String">No Bukti</Data>
+</Cell>
+<Cell ss:Index="11" ss:MergeAcross="9" ss:StyleID="s11" >
+<Data ss:Type="String">U r a i a n</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s9" >
+<Data ss:Type="String">Debet </Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s9" >
+<Data ss:Type="String">Kredit </Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s9" >
+<Data ss:Type="String">Saldo </Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:MergeDown="1" ss:StyleID="s10" >
+<Data ss:Type="String">Kan&#10tor</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="16.4925051937008">
+<Cell ss:Index="1" ss:MergeAcross="22" ss:StyleID="s9" >
+<Data ss:Type="String">S A L D O  A W A L                </Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s9" >
+<Data ss:Type="String">&#49&#51&#48.&#56&#56&#48.&#57&#48&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437099515535">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#50/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#49&#50&#56</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#50&#48&#48&#56&#57&#57 - Mohamad Kidir Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#53&#52&#48&#51</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49.&#54&#50&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#51&#50.&#53&#48&#53.&#57&#48&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#50/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#52&#51&#54</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#49&#48&#49&#50&#50&#49 - Dewi Haryati Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#53&#57&#51&#57</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#52&#50&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#51&#50.&#57&#51&#48.&#57&#48&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279169">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#50/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#50&#48&#55&#54</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Premi Asuransi Dan Dana Kebajikan An. Dewi Haryati Cab Plumbon &#50&#50&#48&#54&#48&#48&#48&#48&#50&#49.&#48&#48&#48</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#49&#51.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#51&#50.&#56&#49&#55.&#57&#48&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279165">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#50/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#50&#49&#53&#54</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Premi Asuransi Dan Dana Kebajikan An. Mohamad Kidir Cab Plumbon &#50&#50&#48&#54&#48&#48&#48&#48&#50&#49.&#48&#48&#48</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#49.&#53&#52&#52.&#50&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#51&#49.&#50&#55&#51.&#55&#48&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#51/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#48&#48&#51</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#49&#48&#49&#50&#50&#50 - Siti Jaenab Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#53&#57&#52&#50</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#54&#52&#48.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#51&#49.&#57&#49&#51.&#55&#48&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#54/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#51&#56&#57</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Premi Asuransi Jiwa Dan Dana Kebajukan An. Siti Jaenab Cabang Plumbon</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#54&#50.&#57&#50&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#51&#49.&#55&#53&#48.&#55&#56&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#54/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#55&#53&#56</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#49&#48&#49&#50&#50&#51 - Tarsudin Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#50&#51&#55&#57</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#54&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#51&#49.&#56&#49&#53.&#55&#56&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279169">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#54/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#50&#55&#56&#48</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#52&#48&#48&#48&#49&#51 - Konaah Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#53&#53&#53&#54</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#53&#48.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#51&#49.&#56&#54&#53.&#55&#56&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279165">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#55/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#56&#57&#52</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Premi Asuransi Jiwa Kredit Dan Dana Kebajikan An. Tarsudin Cab Plumbon</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#50&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#51&#49.&#56&#52&#48.&#55&#56&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#55/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#57&#48&#52</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Premi Asuransi Jiwa Kredit Dan Dana Kebajikan An. Konaah Cab Plumbon</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#50&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#51&#49.&#56&#49&#53.&#55&#56&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="17.4545454545455">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#55/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#50&#48&#48&#55</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Kekurangan Premi An. Tarsudin &#10cab Plumbon</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#50&#48.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#51&#49.&#55&#57&#53.&#55&#56&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="17.4545454545455">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#55/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#50&#48&#49&#57</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Kekurangan Premi Asuransi Jiwa An. Konaah&#10cab Plumbon</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#50&#48.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#51&#49.&#55&#55&#53.&#55&#56&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#56/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#48&#57&#53&#50</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#49&#48&#49&#50&#50&#54 - Rice Andriani Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#53&#57&#52&#53</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#50&#55&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#51&#50.&#48&#53&#48.&#55&#56&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#56/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#54&#49&#51</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#49&#48&#49&#50&#50&#56 - Kurnadi Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#53&#57&#52&#54</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#48&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#51&#50.&#49&#53&#53.&#55&#56&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279169">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#56/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#56&#53&#50</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#49&#48&#49&#50&#50&#57 - Azizah Putri Utami Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#53&#57&#52&#55</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#50&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#51&#50.&#50&#56&#48.&#55&#56&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279165">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#56/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#50&#49&#49&#49</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Premi Asuransi Jiwa Kredit Dan Dana Kebajikan An. Rice Andriani Dar Cab Plumbon</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#55&#51.&#53&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#51&#50.&#50&#48&#55.&#50&#56&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#56/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#50&#49&#49&#55</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Premi Asuransi Jiwa Kredit Dan Dana Kebajikan An. Azizah Putri Utami Dari Cab Plumbon</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#52&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#51&#50.&#49&#54&#50.&#50&#56&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#56/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#50&#49&#50&#48</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Premi Asuransi Jiwa Kredit Dan Dana Kebajikan An. Kurnadi Dari Cab Plumbon</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#54&#57.&#51&#54&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#51&#50.&#48&#57&#50.&#57&#50&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#57/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#49&#48&#48</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#50&#48&#48&#57&#48&#48 - Kiswanto Ardi Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#53&#57&#52&#56</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49.&#50&#55&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#51&#51.&#51&#54&#55.&#57&#50&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279169">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#49&#48/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#48&#51&#50</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#50&#48&#48&#57&#48&#49 - Cardewati Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#53&#57&#52&#57</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49.&#50&#55&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#51&#52.&#54&#52&#50.&#57&#50&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279165">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#49&#48/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#51&#55&#49</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#49&#48&#49&#50&#51&#48 - Yanti Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#53&#57&#53&#48</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#50&#48&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#51&#52.&#56&#52&#55.&#57&#50&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#49&#51/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#48&#55&#53</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#50&#48&#48&#57&#48&#50 - Yono Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#52&#51&#55&#52</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#50&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#51&#52.&#57&#55&#50.&#57&#50&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#49&#51/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#50&#57&#49</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#50&#48&#48&#57&#48&#51 - Lia Yulistia Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#53&#57&#53&#49</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#51&#55&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#51&#53.&#51&#52&#55.&#57&#50&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#49&#51/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#57&#49&#55</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#52&#48&#48&#48&#49&#52 - Daniti Bt Masina Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#53&#53&#54&#54</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#50&#55&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#51&#53.&#54&#50&#50.&#57&#50&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279169">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#49&#52/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#48&#57&#52&#48</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#50&#48&#48&#57&#48&#53 - Nani Nur'aeni Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#52&#54&#54&#55</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#48.&#53&#50&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#52&#54.&#49&#52&#55.&#57&#50&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279165">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#49&#52/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#51&#50&#57</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#49&#48&#49&#50&#51&#49 - Nenti Lunggih Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#53&#57&#53&#51</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#53&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#52&#54.&#50&#48&#50.&#57&#50&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#49&#53/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#50&#48&#48</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#49&#48&#49&#50&#51&#50 - Aniyah Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#52&#52&#52&#55</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#53&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#52&#54.&#50&#53&#55.&#57&#50&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#49&#53/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#51&#48&#48</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#49&#48&#49&#50&#51&#51 - Tuti Sudarwati Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#53&#51&#53&#52</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#55&#50.&#54&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#52&#54.&#52&#51&#48.&#53&#50&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#49&#54/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#48&#56&#50&#49</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#49&#48&#49&#50&#51&#52 - Misem Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#53&#49&#57&#48</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#55&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#52&#54.&#54&#48&#53.&#53&#50&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279169">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#49&#54/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#52&#56&#55</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#49&#48&#49&#50&#51&#53 - Elida Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#51&#51&#54&#50</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#51&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#52&#54.&#55&#52&#48.&#53&#50&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279165">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#49&#55/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#48&#53&#48&#49</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pembayaran Premi Asuransi Jiwa Dan Dana Kebajikan Bulan Maret &#50&#48&#50&#50 Bkc Cab Plumbon</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#56.&#54&#49&#50.&#57&#53&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#51&#56.&#49&#50&#55.&#53&#55&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#49&#55/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#48&#53&#51&#51</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pembayaran Premi Asuransi Jiwa Dan Dana Kebajikan Bulan April &#50&#48&#50&#50 Bkc Cab Plumbon</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#55.&#49&#48&#52.&#54&#56&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#50&#49.&#48&#50&#50.&#56&#57&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#49&#55/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#48&#53&#52&#53</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pembayaran Premi Asuransi Jiwa Dan Dana Kebajikan Bulan Mei &#50&#48&#50&#50 Bkc Cab Plumbon</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#55.&#52&#48&#49.&#49&#54&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#48&#51.&#54&#50&#49.&#55&#51&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#49&#55/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#52&#48&#53</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#49&#48&#49&#50&#51&#55 - Alek Solehudin Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#53&#57&#53&#55</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#50&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#48&#51.&#55&#52&#54.&#55&#51&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279169">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#49&#55/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#53&#57&#54</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#50&#48&#48&#57&#48&#54 - Predi Sulistiyono Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#53&#55&#56&#49</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49.&#57&#48&#48.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#48&#53.&#54&#52&#54.&#55&#51&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279165">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#49&#55/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#56&#56&#56</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#49&#48&#49&#50&#51&#56 - Sutianah Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#53&#57&#53&#56</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49.&#48&#50&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#48&#54.&#54&#55&#49.&#55&#51&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#50&#48/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#48&#55&#57&#57</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#49&#48&#49&#50&#51&#57 - Suhartini Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#53&#57&#53&#57</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#50&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#48&#54.&#55&#57&#54.&#55&#51&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#50&#48/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#48&#53&#53</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#50&#48&#48&#57&#48&#55 - Danu Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#53&#52&#52&#53</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#51.&#48&#50&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#48&#57.&#56&#50&#49.&#55&#51&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#50&#48/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#53&#50&#51</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#49&#48&#49&#50&#52&#48 - Wartimah Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#53&#57&#54&#50</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#48&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#48&#57.&#57&#50&#54.&#55&#51&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="0.727272727272727">
+<Cell ss:Index="1" ss:MergeAcross="28" ss:StyleID="s4" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="17.4779949052545">
+<Cell ss:Index="1" ss:MergeAcross="27" ss:StyleID="s0" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437454545455">
+<Cell ss:Index="1" ss:MergeAcross="1" ss:MergeDown="1" ss:StyleID="s0" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="3" ss:MergeAcross="6" ss:StyleID="s18" >
+<Data ss:Type="String">Halaman : &#49</Data>
+</Cell>
+<Cell ss:Index="10" ss:MergeAcross="18" ss:MergeDown="1" ss:StyleID="s0" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="1.66591679272727">
+<Cell ss:Index="3" ss:MergeAcross="6" ss:StyleID="s0" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="27.4874909090909">
+<Cell ss:Index="1" />
+<Cell ss:Index="2" />
+<Cell ss:Index="3" />
+<Cell ss:Index="4" />
+<Cell ss:Index="5" />
+<Cell ss:Index="6" />
+<Cell ss:Index="7" />
+<Cell ss:Index="8" />
+<Cell ss:Index="9" />
+<Cell ss:Index="10" />
+<Cell ss:Index="11" />
+<Cell ss:Index="12" />
+<Cell ss:Index="13" />
+<Cell ss:Index="14" />
+<Cell ss:Index="15" />
+<Cell ss:Index="16" />
+<Cell ss:Index="17" />
+<Cell ss:Index="18" />
+<Cell ss:Index="19" />
+<Cell ss:Index="20" />
+<Cell ss:Index="21" />
+<Cell ss:Index="22" />
+<Cell ss:Index="23" />
+<Cell ss:Index="24" />
+<Cell ss:Index="25" />
+<Cell ss:Index="26" />
+<Cell ss:Index="27" />
+<Cell ss:Index="28" />
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279169">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#50&#48/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#56&#54&#55</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#49&#48&#49&#50&#51&#54 - Sanusi Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#53&#57&#53&#54</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#52&#54&#48.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#49&#48.&#51&#56&#54.&#55&#51&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="28" ss:MergeDown="46" ss:StyleID="s0" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279169">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#50&#49/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#55&#52&#51</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#49&#48&#49&#50&#52&#49 - Agus Dedi Rahmat Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#53&#54&#53&#51</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#55&#55&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#49&#49.&#49&#54&#49.&#55&#51&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279169">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#50&#50/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#48&#51&#48&#51</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Premi Asuransi Jiwa Kredit Dan Dana Kebajikan An. Kiswanto Ardi Dari Cab Plumbon</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#50&#53&#49.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#49&#48.&#57&#49&#48.&#55&#51&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279169">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#50&#50/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#48&#51&#53&#50</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Premi Asuransi Jiwa Kredit Dan Dana Kebajikan An. Yanti Dari Cab Plumbon</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#52&#55.&#52&#52&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#49&#48.&#56&#54&#51.&#50&#57&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279169">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#50&#50/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#48&#51&#54&#55</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Premi Asuransi Jiwa Kredit Dan Dana Kebajikan An. Cardewati  Dari Cab Plumbon</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#52&#52&#54.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#49&#48.&#52&#49&#55.&#50&#57&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#50&#50/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#48&#51&#55&#50</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Premi Asuransi Jiwa Kredit Dan Dana Kebajikan An. Yono Dari Cab Plumbon</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#52&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#49&#48.&#51&#55&#50.&#50&#57&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#50&#50/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#48&#51&#56&#51</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Premi Asuransi Jiwa Kredit Dan Dana Kebajikan An. Lia Yulistia Dari Cab Plumbon</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#50&#56.&#50&#53&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#49&#48.&#50&#52&#52.&#48&#52&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279169">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#50&#50/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#48&#51&#57&#53</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Premi Asuransi Jiwa Kredit Dan Dana Kebajikan An. Daniti Bt Masina Dari Cab Plumbon</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#52&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#49&#48.&#49&#57&#57.&#48&#52&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279165">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#50&#50/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#48&#52&#48&#56</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Premi Asuransi Jiwa Kredit Dan Dana Kebajikan An. Nenti Lunggih Dari Cab Plumbon</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#52&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#49&#48.&#49&#53&#52.&#48&#52&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#50&#50/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#48&#52&#49&#57</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Premi Asuransi Jiwa Kredit Dan Dana Kebajikan An. Nani Nuraeni Dari Cab Plumbon</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#51.&#48&#51&#52.&#51&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#48&#55.&#49&#49&#57.&#55&#52&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#50&#50/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#48&#52&#57&#55</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#49&#48&#49&#50&#52&#50 - Wawan Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#48&#54&#52&#56</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#53&#48.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#48&#55.&#50&#54&#57.&#55&#52&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#50&#50/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#48&#57&#53&#57</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Premi Asuransi Jiwa Kredit Dan Dana Kebajikan An. Aniyah Dari Cab Plumbon</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#52&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#48&#55.&#50&#50&#52.&#55&#52&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279169">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#50&#50/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#48&#57&#55&#55</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Premi Asuransi Jiwa Kredit Dan Dana Kebajikan An. Misem Dari Cab Plumbon</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#57&#52.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#48&#55.&#49&#51&#48.&#55&#52&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279165">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#50&#50/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#48&#48&#57</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Premi Asuransi Jiwa Kredit Dan Dana Kebajikan An. Elida Dari Cab Plumbon</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#52&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#48&#55.&#48&#56&#53.&#55&#52&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#50&#50/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#48&#51&#48</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Premi Asuransi Jiwa Kredit Dan Dana Kebajikan An. Predi Sulistiyono Dari Cab Plumbon</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#57&#48&#55.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#48&#54.&#49&#55&#56.&#55&#52&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#50&#50/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#48&#52&#51</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Premi Asuransi Jiwa Kredit Dan Dana Kebajikan An. Sutianah Dari Cab Plumbon</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#54&#52.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#48&#54.&#48&#49&#52.&#55&#52&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#50&#50/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#48&#53&#49</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Premi Asuransi Jiwa Kredit Dan Dana Kebajikan An. Alek Solehudin Dari Cab Plumbon</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#53&#49.&#56&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#48&#53.&#57&#54&#50.&#57&#52&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279169">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#50&#50/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#48&#53&#56</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Premi Asuransi Jiwa Kredit Dan Dana Kebajikan An. Suhartini Dari Cab Plumbon</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#57&#54.&#55&#53&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#48&#53.&#55&#54&#54.&#49&#57&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279165">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#50&#50/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#48&#54&#56</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Premi Asuransi Jiwa Kredit Dan Dana Kebajikan An. Danu Dari Cab Plumbon</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#50.&#49&#53&#57.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#48&#51.&#54&#48&#55.&#49&#57&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#50&#50/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#48&#55&#51</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Premi Asuransi Jiwa Kredit Dan Dana Kebajikan An. Wartimah Dari Cab Plumbon</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#54&#49.&#56&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#48&#51.&#53&#52&#53.&#51&#57&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#50&#50/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#48&#56&#49</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Premi Asuransi Jiwa Kredit Dan Dana Kebajikan An. Sanusi Dari Cab Plumbon</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#50&#49&#50.&#51&#52&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#48&#51.&#51&#51&#51.&#48&#53&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#50&#50/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#48&#57&#50</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Premi Asuransi Jiwa Kredit Dan Dana Kebajikan An. Agus Dedi Rahmat  Dari Cab Plumbon</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#57&#54.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#48&#51.&#49&#51&#55.&#48&#53&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279169">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#50&#50/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#49&#48&#56</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Premi Asuransi Jiwa Kredit Dan Dana Kebajikan An. Wawan Dari Cab Plumbon</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#54&#49.&#50&#53&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#48&#51.&#48&#55&#53.&#56&#48&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279165">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#50&#50/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#54&#48&#57</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#49&#48&#49&#50&#52&#52 - Eko Priyanto Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#50&#53&#50&#56</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#50&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#48&#51.&#50&#48&#48.&#56&#48&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#50&#50/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">ATK</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#56&#48&#52</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Premi Asuransi Jiwa Kredit Dan Dana Kebajikan An. Eko Priyanto  Dari Cab Plumbon</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#52&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#48&#51.&#49&#53&#53.&#56&#48&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#50&#52/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#50&#54&#57</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#50&#48&#48&#57&#48&#56 - Toni Efendi Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#53&#55&#48&#56</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#51&#50&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#48&#51.&#52&#56&#48.&#56&#48&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279171">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#50&#52/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#57&#56&#50</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#50&#48&#48&#57&#48&#57 - Asep Johni Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#53&#57&#54&#54</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#53&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#48&#51.&#53&#51&#53.&#56&#48&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279169">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#50&#52/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#50&#49&#56&#48</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#50&#48&#48&#57&#49&#48 - Abdul Azis Rasidi Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#53&#53&#55&#57</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#55.&#53&#50&#53.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#49&#49.&#48&#54&#48.&#56&#48&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437330279165">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s15" >
+<Data ss:Type="String">&#50&#55/&#48&#54/&#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="4" ss:StyleID="s15" >
+<Data ss:Type="String">KRE</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s17" >
+<Data ss:Type="String"> &#48&#48&#52-&#48&#54-&#50&#50-&#49&#50&#48&#57</Data>
+</Cell>
+<Cell ss:Index="13" ss:MergeAcross="7" ss:StyleID="s17" >
+<Data ss:Type="String">Pencairan Kredit Norek &#48&#48&#52&#49&#48&#49&#48&#49&#50&#52&#53 - Agung Mustopa Ob Ke Tabungan &#48&#48&#52&#50&#48&#49&#48&#53&#57&#54&#55</Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s16" >
+<Data ss:Type="String">&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#56&#48.&#48&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s16" >
+<Data ss:Type="String">&#49&#49&#49.&#49&#52&#48.&#56&#48&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">&#48&#48&#52</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="19.2412312072727">
+<Cell ss:Index="1" ss:MergeAcross="5" ss:StyleID="s20" >
+<Data ss:Type="String"> J U M L A H </Data>
+</Cell>
+<Cell ss:Index="7" ss:MergeAcross="13" ss:StyleID="s19" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s9" >
+<Data ss:Type="String">&#53&#51.&#52&#57&#55.&#55&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s9" >
+<Data ss:Type="String">&#51&#51.&#55&#53&#55.&#54&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="1" ss:StyleID="s9" >
+<Data ss:Type="String">&#49&#49&#49.&#49&#52&#48.&#56&#48&#56,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="26" ss:MergeAcross="1" ss:StyleID="s9" >
+<Data ss:Type="Number"></Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7149724290909">
+<Cell ss:Index="1" ss:MergeAcross="26" ss:StyleID="s0" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="20.8585236363636">
+<Cell ss:Index="1" ss:MergeAcross="5" ss:StyleID="s20" >
+<Data ss:Type="String">T  O  T  A  L</Data>
+</Cell>
+<Cell ss:Index="7" ss:MergeAcross="13" ss:StyleID="s19" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="21" ss:StyleID="s9" >
+<Data ss:Type="String">&#53&#51.&#52&#57&#55.&#55&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="22" ss:MergeAcross="1" ss:StyleID="s9" >
+<Data ss:Type="String">&#51&#51.&#55&#53&#55.&#54&#48&#48,&#48&#48</Data>
+</Cell>
+<Cell ss:Index="24" ss:MergeAcross="3" ss:StyleID="s9" >
+<Data ss:Type="Number"></Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="3.88021818181817">
+<Cell ss:Index="1" ss:MergeAcross="26" ss:StyleID="s0" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="13.7437454545455">
+<Cell ss:Index="1" ss:MergeAcross="14" ss:MergeDown="1" ss:StyleID="s0" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="16" ss:MergeAcross="11" ss:StyleID="s26" >
+<Data ss:Type="String">PLUMBON, &#50&#56 Juni &#50&#48&#50&#50</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="2.74874909090909">
+<Cell ss:Index="16" ss:MergeAcross="11" ss:StyleID="s0" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="19.2412436363636">
+<Cell ss:Index="1" ss:MergeAcross="4" ss:MergeDown="11" ss:StyleID="s0" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="10" ss:StyleID="s10" >
+<Data ss:Type="String">Dibuat</Data>
+</Cell>
+<Cell ss:Index="17" ss:MergeAcross="5" ss:StyleID="s10" >
+<Data ss:Type="String">Diperiksa</Data>
+</Cell>
+<Cell ss:Index="23" ss:MergeAcross="4" ss:StyleID="s10" >
+<Data ss:Type="String">Mengetahui</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="2.74874909090909">
+<Cell ss:Index="6" ss:MergeAcross="21" ss:StyleID="s0" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="35.7337381818182">
+<Cell ss:Index="6" ss:MergeAcross="10" ss:StyleID="s27" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="17" ss:MergeAcross="5" ss:StyleID="s28" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="23" ss:MergeAcross="4" ss:StyleID="s29" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="8.24624727272727">
+<Cell ss:Index="6" ss:MergeAcross="10" ss:StyleID="s24" >
+<Data ss:Type="String">EDI SUPARDI</Data>
+</Cell>
+<Cell ss:Index="17" ss:MergeAcross="5" ss:StyleID="s24" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="23" ss:MergeAcross="4" ss:MergeDown="1" ss:StyleID="s24" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="1.22166626181818">
+<Cell ss:Index="6" ss:MergeAcross="10" ss:MergeDown="4" ss:StyleID="s25" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="17" ss:MergeAcross="5" ss:MergeDown="4" ss:StyleID="s25" >
+<Data ss:Type="String">SPI</Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="4.27583192">
+<Cell ss:Index="23" ss:MergeAcross="4" ss:MergeDown="4" ss:StyleID="s25" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="1.52708282909091">
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="3.97041535272727">
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="2.74874909090909">
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="2.74874909090909">
+<Cell ss:Index="6" ss:MergeAcross="12" ss:MergeDown="1" ss:StyleID="s21" >
+<Data ss:Type="String">Dicetak tanggal &#50&#56/&#48&#54/&#50&#48&#50&#50 &#49&#48:&#53&#51:&#53&#53</Data>
+</Cell>
+<Cell ss:Index="19" ss:MergeAcross="3" ss:MergeDown="2" ss:StyleID="s0" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="10.9949963636364">
+<Cell ss:Index="23" ss:MergeAcross="4" ss:MergeDown="1" ss:StyleID="s0" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+<Row ss:Height="148.266396735863">
+<Cell ss:Index="6" ss:MergeAcross="12" ss:StyleID="s0" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="29" />
+<Cell ss:Index="30" />
+</Row>
+</Table>
+<WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+<PageSetup>
+<PageMargins x:Bottom="0.380228136882129" x:Left="0.380228136882129" x:Right="0.190114068441065" x:Top="0.380228136882129"/>
+</PageSetup>
+</WorksheetOptions>
+<PageBreaks xmlns="urn:schemas-microsoft-com:office:excel">
+<RowBreaks>
+<RowBreak>
+<Row>60</Row>
+</RowBreak>
+</RowBreaks>
+</PageBreaks>
+</Worksheet>
+</Workbook>
